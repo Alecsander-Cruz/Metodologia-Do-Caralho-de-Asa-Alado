@@ -25,9 +25,11 @@ public class UsaPersonagem {
 	    System.out.println("\n");
 	    p.setArma(new Fuzil());
 	    p.arma();
+	    System.out.println("\n");
 	    p = new Mago();
 	    p.desenhar();
 	    System.out.println("\n");
+	    p.setArma(new Magia());
 	    p.arma();
 	    System.out.println("\n");
 	    p.setArma(new Faca());

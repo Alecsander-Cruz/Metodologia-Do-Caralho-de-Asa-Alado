@@ -10,11 +10,6 @@ public class Mago extends Personagem{
 		System.out.println(" /|\\ mago");	
 		System.out.println("  | ");
 		System.out.println(" /\\ ");
-	}
-
-	public void arma(){
-		System.out.println("BLIZZARD STORM!");
-	}
-	
+	}	
 	
 }
