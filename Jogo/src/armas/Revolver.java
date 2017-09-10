@@ -4,7 +4,7 @@ public class Revolver implements ArmaIF {
 
 	@Override
 	public void usaArma() {
-		System.out.println("Tiro");
+		System.out.println("PEI PEI");
 	}
 	
 }

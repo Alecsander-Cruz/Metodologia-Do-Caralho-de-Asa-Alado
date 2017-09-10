@@ -4,6 +4,6 @@ public class Desarmado implements ArmaIF {
 	
 	@Override
 	public void usaArma() {
-		System.out.println("Desarmado");
+		System.out.println("PANQUE VA, PANQUE MEU QUEIXO!");
 	}
 }

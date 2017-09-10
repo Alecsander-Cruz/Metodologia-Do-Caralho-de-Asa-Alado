@@ -8,9 +8,7 @@ public abstract class Personagem {
 	
 	public abstract void desenhar();
 	
-	public void falar() {
-		System.out.println("blablabla!");
-	}
+	public abstract void falar();
 	
 	public void arma() {
 		arma.usaArma();
@@ -19,4 +17,6 @@ public abstract class Personagem {
 	public void setArma(ArmaIF a) {
 		arma = a;
 	}
+	
+	public abstract void mover();
 }

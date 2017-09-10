@@ -1,10 +1,11 @@
 package armas;
 
-public class Faca implements ArmaIF {
+public class Bomba implements ArmaIF {
 
 	@Override
 	public void usaArma() {
-		System.out.println("STAB");
+
+		System.out.println("BOOOOM!");
 		
 	}
 	

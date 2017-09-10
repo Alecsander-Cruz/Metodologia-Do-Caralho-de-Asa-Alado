@@ -11,29 +11,44 @@ public class UsaPersonagem {
 	    System.out.println("\n");
 	    p.setArma(new Revolver());
 	    p.arma(); /*imprime tiro*/
-	    p.setArma(new Fuzil()); 
+	    p.setArma(new Faca()); 
 	    p.arma(); /*imprime rajada*/
+	    p.falar();
+	    p.mover();
 	    System.out.println("\n\n");
+	    
 	    p = new LutadorSumo();
 	    p.desenhar();
 	    System.out.println("\n");
-	    p.setArma(new Desarmado());
 	    p.arma();/*imprime desarmado*/
+	    p.falar();
+	    p.mover();
 	    System.out.println("\n\n");
+	    
 	    p = new General();
 	    p.desenhar();
 	    System.out.println("\n");
 	    p.setArma(new Fuzil());
-	    p.arma();
-	    System.out.println("\n");
+	    p.arma();/*imprime rajada*/
+	    p.setArma(new Bomba());
+	    p.arma();/*imprime bomba*/
+	    p.falar();
+	    p.mover();
+	    System.out.println("\n\n");
+	    
 	    p = new Mago();
 	    p.desenhar();
 	    System.out.println("\n");
-	    p.setArma(new Magia());
-	    p.arma();
-	    System.out.println("\n");
-	    p.setArma(new Faca());
-	    p.arma();
+	    p.arma();/*imprime magia*/
+	    p.falar();
+	    p.mover();
+	    System.out.println("\n\n");
 	    
+	    p = new DragaoAlado();
+	    p.desenhar();
+	    System.out.println("\n");
+	    p.arma();/*imprime fogarada*/
+	    p.falar();
+	    p.mover();
 	}
 }
